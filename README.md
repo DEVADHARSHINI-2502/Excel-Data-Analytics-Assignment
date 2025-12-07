@@ -160,7 +160,8 @@ Lookup Functions
 ### 📂 *Files Included*
 - Week-1 Assignment.xlsx – Main working file with Cleaned data, formulas, pivot tables, and dashboard
 - Dashboard.png – Dashboard screenshot
--Readme file 
+- A README file
+  
 
 
 
