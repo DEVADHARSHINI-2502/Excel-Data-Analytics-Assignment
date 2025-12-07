@@ -30,10 +30,9 @@ This project includes the following tasks:
 ---
 
 ### 📂 *Files Included*
-- Assignment.xlsx – Main working file
+- Week-1 Assignment.xlsx – Main working file
 - Dashboard.png – Dashboard screenshot
-- PivotTable.png (optional)
-- Final_Report.pdf (if required)
+
 
 ---
 
