@@ -2,151 +2,149 @@
 
 ---
 
-📊 Sales Data Analysis – Excel Project
+📊 Excel Sales Data Analysis — End-to-End ETL & Dashboard Project
 
-This project demonstrates end-to-end data cleaning, analysis, and dashboard creation using Microsoft Excel. The dataset contains 2823 rows and 25 columns of global sales information, including order details, customer details, product lines, and sales figures.
+This project showcases a complete data cleaning + transformation + analysis + dashboarding workflow using Microsoft Excel and Power Query.
+The dataset contains 2,823 rows × 25 columns of global sales data including order details, product lines, customers, and revenue.
 
-
----
-
-✔ Project Objectives
-
-Clean and prepare raw sales data
-
-Apply formulas (SUMIF, COUNTIF, VLOOKUP, AVERAGE)
-
-Build Pivot Tables for deeper analysis
-
-Create an interactive Excel Dashboard with slicers
-
-Summarize business metrics using KPI cards
-
+This project demonstrates skills used in Data Analytics, Business Intelligence, and entry-level Data Engineering.
 
 
 ---
 
-🧹 Data Cleaning (Power Query)
 
-Performed using Power Query:
 
-Removed null & duplicate records
+🚀Project Objectives
 
-Split and formatted ORDERDATE (removed time stamp)
+Clean and preprocess raw sales data
 
-Standardized data types (Date, Text, Number)
+Standardize data formats using Power Query
 
-Renamed inconsistent column headers
+Apply Excel formulas for metric calculations
 
-Loaded cleaned data as an Excel Table (Cleaned_dataset)
+Build pivot-table-driven insights
+
+Design an interactive sales dashboard with slicers & KPIs
+
+Summarize key business performance metrics
 
 
 
 ---
 
-🧮 Key Excel Formulas Used
 
-SUMIF – calculate sales by country
+🧹 1. Data Cleaning — Power Query ETL Steps
 
-COUNTIF – count shipped orders
+Performed using Power Query (ETL):
 
-VLOOKUP – lookup sales for a specific order
+Removed null rows and duplicate records
 
-AVERAGE – average sales per order
+Standardized column data types (Date, Text, Numbers)
 
-MAX/MIN – identify range of sales values
+Split and reformatted ORDERDATE to remove timestamp
 
+Cleaned inconsistent delimiters (e.g., “-” vs “/”)
 
-These formulas were organized in a separate sheet to showcase technique and clarity.
+Renamed columns to maintain uniform structure
+
+Loaded cleaned output as an Excel Table: Cleaned_Dataset
+
+ETL Skills Demonstrated:
+Data Extraction → Cleaning → Transformation → Loading
+
 
 
 ---
 
-📈 Pivot Tables Created
+🧮 2. Excel Functions Used
 
-1. Sales by Year
+Used across a dedicated Formulas sheet:
 
+SUMIF → Sales by country
 
-2. Sales by Month
+COUNTIF → Count of shipped orders
 
+VLOOKUP → Lookup sales details for a specific order
 
-3. Sales by Country/Territory
+AVERAGE → Average order value
 
+MAX/MIN → Identify range of sales values
 
-4. Sales by Product Line
+IF & Text Functions → Categorization and cleaning
 
-
-5. Top 10 Customers by Revenue
-
-
-
-Each pivot table served as the source for dashboard visualizations.
+These formulas document the analytical approach clearly and systematically.
 
 
 ---
 
-📊 Dashboard Overview
+📈 3. Pivot Tables Created
 
-The final dashboard includes:-
+Pivot tables were created to support deeper analysis:
 
-KPI Cards:
+Sales by Year
 
- 1.Total Sales
+Sales by Month
 
- 2.Total Orders
+Sales by Country / Territory
 
- 3.Average Order Value
+Sales by Product Line
 
- 4.Maximum Sale
+Top 10 Customers by Revenue
 
- 5.Minimum Sale
-
-
-Pivot Tables:
-
-1.Yearly Sales Trend 
-
-2.Monthly Sales Distribution 
-
-3.Sales by Product Line 
-
-4.Sales by Country
-
-5.Top 10 Customers by Sales
-
-   Interactive Slicers for Pivot Tables:
-
-   Year_id
-
-   Territory
-
-
-
-Charts:
-
-Yearly Sales Trend (Line Chart)
-
-Monthly Sales Distribution (Column Chart)
-
-Sales by Product Line (Bar Chart)
-
-Sales by Territory (Pie Chart)
-
-
-
-This provides a clean, interactive way to explore and analyse  sales performance.
+These pivot tables served as the source for dashboard charts.
 
 
 ---
+
+📊 4. Dashboard Overview
+
+Designed an interactive Excel Dashboard containing:
+
+⭐ KPI Cards
+
+Total Sales
+
+Total Orders
+
+Average Order Value
+
+Highest Sale
+
+Lowest Sale
+
+⭐ Charts Used
+
+Line Chart → Yearly Sales Trend
+
+Column Chart → Monthly Sales Distribution
+
+Bar Chart → Sales by Product Line
+
+Pie Chart → Sales by Territory
+
+⭐ Slicers Added
+
+Year
+
+Territory
+
+Product Line
+
+This dashboard provides a clean, intuitive interface to explore sales insights.
+
+
+---
+
 
 🛠 Tools & Skills Demonstrated
 
 Microsoft Excel
 
-Power Query
+Power Query (ETL)
 
 Pivot Tables
 
-Data Cleaning
+Data Cleaning & Transformation
 
 Dashboard Design
 
@@ -154,13 +152,16 @@ Business KPIs
 
 Lookup Functions
 
+Data Visualization
 
 
+### 📂 *Project Files*
 
-### 📂 *Files Included*
-- Week-1 Assignment.xlsx – Main working file with Cleaned data, formulas, pivot tables, and dashboard
-- Dashboard.png – Dashboard screenshot
-- A README file
+Week-1 Assignment.xlsx — Cleaned data, formulas, pivot tables, dashboard
+
+Dashboard.png — Final dashboard screenshot
+
+README.md — Project documentation
   
 
 
